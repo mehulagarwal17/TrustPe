@@ -159,6 +159,6 @@ This project was built for **Monad Blitz Hyderabad**. License TBD.
 
 <div align="center">
 
-Built by [Mehul Agarwal](https://github.com/mehulagarwal17)
+Built by [The CodeQuesters](https://github.com/mehulagarwal17)
 
 </div>
