@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --palette-black: #000000;
+  --palette-crimson: #cf0f47;
+  --palette-neon-rose: #ff0b55;
+  --palette-blush: #ffdede;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #260510;
+  border-radius: 4px;
+  border: 1px solid #cf0f4733;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0b55;
+}
+
+/* Glow Utilities for Color Palette */
+.glow-crimson {
+  box-shadow: 0 0 35px rgba(207, 15, 71, 0.4);
+}
+
+.glow-neon-rose {
+  box-shadow: 0 0 35px rgba(255, 11, 85, 0.45);
+}
+
+.glow-blush {
+  box-shadow: 0 0 30px rgba(255, 222, 222, 0.35);
+}
+
+.text-gradient-rose {
+  background: linear-gradient(135deg, #cf0f47 0%, #ff0b55 50%, #ffdede 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

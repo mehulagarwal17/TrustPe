@@ -1,0 +1,6 @@
+{
+  "name": "TrustPe",
+  "description": "Locked, until its earned. Programmable milestone-locked gifts & escrows on Monad Testnet with instant finality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
